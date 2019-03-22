@@ -62,8 +62,8 @@ def name_from_path(path):
         
 
 def load_data():
-    cal = pd.read_csv('/home/keredu/HFG2019Alzheimer/calendar.csv', sep=';')
-    cap = pd.read_excel('/home/keredu/HFG2019Alzheimer/capabilities.xlsx',
+    cal = pd.read_csv('./calendar.csv', sep=';')
+    cap = pd.read_excel('./capabilities.xlsx',
                     sheet_name='ENE-FEB', header=None)
 
     cap = cap.drop(cap.index[0])
