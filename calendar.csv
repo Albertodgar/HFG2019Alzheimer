@@ -1,0 +1,9 @@
+﻿DIA;HABILIDAD1;ABREVIATURA1;HABILIDAD2;ABREVIATURA2;HABILIDAD3;ABREVIATURA3;HABILIDAD4;ABREVIATURA4;HABILIDAD5;ABREVIATURA5;HABILIDAD6;ABREVIATURA6;HABILIDAD7;ABREVIATURA7
+LUNES1;Lenguaje Expresivo;FLZ;Memoria Semántica;SEMÁN;Memoria Inmediata;INM;Gnosias Visuales Incompletas;INCOM;Memoria demorada;DEMOR;Visual;VIS;;
+LUNES2;Lenguaje vocabulario;VOCAB;Lenguaje Discriminación auditiva;DISCR-AUDIT;FFEE Estimación;EST;Memoria Episódica;EPIS-AUTOB;Memoria Remota;REMOTA;Cubos;CUBOS;Diferentes perspectivas;DIF-PERS
+MARTES1;Lenguaje Lectura;LECT;Lenguaje Comprensión;COMPR;Praxias Constructivas;V-CONSTR;Praxias Orofaciales;OROFAC;Praxias Ideatorias;IDEAT;Simultaneas;SIMULT;Espacial;OR-ESP
+MARTES2;Lenguaje Lectura;LECT;Lenguaje Comprensión;COMPR;Praxias gráficas/finas;MOTR-GRAF;Praxias ideomotoras;IDEOMOT;Gnosias tamaño;TAM;;;;
+MIERCOLES1;FFEE Secuenciación y planificación;PLANIF;FFEE Fluidez categorial;CATEG;Gnosias Visuales;VIS;Gnosias auditivas;AUDI;Visoespacial Espacial/ubicación;UBIC;;;;
+MIERCOLES2;Gnosias Sombras;SOMB;Gnosias cromáticas;CRO;Gnosias táctiles;TÁCT;Gnosias faciales;FAC;FFEE Razonamiento;RAZ;FFEE Memoria de Trabajo;M-DE-TR;Visoespacial Reloj;RELOJ
+JUEVES1;Atención Selectiva;SELEC;Atención Sostenida;SOST;Cálculo Cuentas;C-CUENTAS;Cálculo Porcesamiento numérico;PTO-NCO;Orientación Realidad;OR-REAL;FFEE Orientación Temporal;OR-TEMP;;
+JUEVES2;Atención Alternante;ALT;Atención Selectiva;SELEC;Cálculo Cuentas;C-CUENTAS;Cálculo Porcesamiento numérico;PTO-NCO;Orientación Izquierda-dercha;OR-DCHA-IZQ;Orientación Arriba Abajo;OR-ARR-AB;Viso Espacial Laberinto;LAB
