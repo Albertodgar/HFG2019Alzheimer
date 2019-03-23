@@ -6,6 +6,7 @@ from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import letter
 import os
 import random
+import time
 
 def write_to_PDF(usuario, input_file, output_file):
     packet = io.BytesIO()
@@ -81,6 +82,8 @@ def load_data():
     cap.dropna(axis=0, how='any', inplace=True)
     cap.columns = [a.strip() for a in cap]
     return cal, cap
+
+start_time = time.time()
       
 cal, cap = load_data()
 alumnos = list(cap['USUARIOS'])
@@ -105,13 +108,15 @@ for d in list(cal['DIA']):
                     path = './FICHAS/'+a+'/'+ cap_alum
                     l = os.listdir(path)
                     path = path + '/' + random.choice(l)
-                    nombre2 = alum + '_' + name_from_path(path) + '.pdf'
+                    nombre2 = alum + '_' + name_from_path(path)
                     path2 = "./IMPRIMIR/"
                     path2 = path2 + "{}/SALA{}/{}".format(d, str(i), nombre2)
                     #print(path,path2)
                     write_to_PDF(alum, path, path2)
 
-
+t = time.time() - start_time
+print("Tiempo en ejecutarse para {}: {} segundos".format(len(alumnos),t))
+print("Tiempo por usuario: {}".format(t/len(alumnos)))
 
 
 
